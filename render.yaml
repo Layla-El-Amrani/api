@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: api
+    env: docker
+    region: frankfurt
+    dockerfilePath: ./Dockerfile
+    branch: master
+    autoDeploy: true
